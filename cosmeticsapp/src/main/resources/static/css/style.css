@@ -1,0 +1,256 @@
+@charset "UTF-8";
+html,
+body {
+  font-family: Arial, sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #EEEEEE;
+}
+
+.container{
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background-color: #EEEEEE;
+}
+
+@font-face{
+	font-family: "Berlin Sans FB";
+	src:url(fonts/BRLNSB.TTF);
+	
+	font-family:"Britannic Bold";
+	src: url(fonts/BRITANIC.TTF);
+	
+	font-family:"anzu";
+	src:url(fonts/APJapanesefont.ttf);
+}
+
+#main,
+#result{
+	background-color: #EEEEEE;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#main h1,
+#result h1{
+	font-family: "Berlin Sans FB";
+	line-height: 2;
+}
+
+.anzu{
+	font-family:"anzu";
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+
+.clearfix:after{
+  content: " "; 
+  display: block; 
+  height: 0; 
+  font-size:0;	
+  clear: both; 
+  visibility:hidden;
+}
+
+.btn{
+	font-family: "Britannic Bold";
+	font-size: 2rem;
+	font-weight: bold;
+	width: 30%;
+	min-width: 180px;
+	letter-spacing: 5px;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	background-color: #ff00ff;
+	border-color: #ff00ff;
+}
+.btn:hover{
+	background-color: aqua;
+	border-color:aqua;
+}
+
+p{
+	line-height: 1;
+}
+
+#faircircle{
+	width:50px;
+	height: 50px;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	background-color: #f9e5d9;
+	margin: 7% auto;
+}
+
+#lightcircle{
+	width:50px;
+	height: 50px;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	background-color: #efd2cc;
+	margin: 7% auto;
+}
+
+#mediumcircle{
+	width:50px;
+	height: 50px;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	background-color: #deab7d;
+	margin: 7% auto;
+}
+
+
+#tanolivecircle{
+	width:50px;
+	height: 50px;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	background-color: #b67245;
+	margin: 7% auto;
+}
+
+#deepcircle{
+	width:50px;
+	height: 50px;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	background-color: #64321e;
+	margin: 7% auto;
+}
+
+
+.footer,
+.berlin{
+	font-family: "Berlin Sans FB";
+}
+
+#quiz ul{
+	width: 100%;
+	list-style: none;
+}
+
+#quiz2 ul,
+#quiz4 ul{
+	width: 100%;
+	list-style: none;
+	margin-left:3%;
+}
+
+#quiz3 ul{
+	width: 100%;
+	list-style: none;
+	/*margin-left:5%;*/
+}
+
+#quiz li{
+	width: 15%;
+	height:auto;
+	float: left;
+	margin-right: 4%;
+	text-align: center;
+}
+
+
+#quiz2 li,
+#quiz4 li{
+	width:18%;
+	height:auto;
+	float: left;
+	margin-right: 4%;
+	text-align: center;
+}
+
+
+#quiz3 li{
+	width:28%;
+	height:auto;
+	float: left;
+	margin-right: 4%;
+	text-align: center;
+}
+
+#quiz li:nth-last-child(1),
+#quiz3 li:nth-last-child(1){
+	margin-right: 0;
+} 
+
+
+//1つの画面で出すために追加
+/*
+#quiz2 li:nth-last-child(1){
+	display:none;
+}
+
+#quiz2 li:nth-last-child(2){
+	margin-right:0;
+}*/
+
+#quiz .content,
+#quiz2 .content,
+#quiz3 .content,
+#quiz4 .content{
+	margin-top:10%;
+	margin-bottom:10%;
+}
+
+.quizBox{
+	background-color: white;
+	padding-top: 5%;
+	margin-top:5%;
+	margin-bottom:5%;
+	padding-bottom: 5%;
+}
+
+#result ul{
+	width: 100%;
+	list-style: none;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+#result li{
+	width: 100%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+#result .listImg{
+	float: left;
+	width:30%;
+}
+
+#result .listTxt{
+	float: right;
+	width: 70%;
+	font-size:1.5em;
+}
+
+#result .listwidth{
+	background-color: white;
+	margin: 5% auto;
+}
+
+.center{
+	margin: 0 auto;
+}
+
+.anzutitle{
+	font-family:"anzu";
+	font-size: 3.5rem;
+	font-weight: bold;
+}
+
+@media screen and (max-width:400px){
+	ul{
+		padding: 0;
+	}
+	#result ul{
+		padding-left:0;
+	}
+}

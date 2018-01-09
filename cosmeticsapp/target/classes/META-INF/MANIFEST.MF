@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: cosmeticsapp
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Misaki-chan
+Implementation-Vendor-Id: com.cosmeticsapp.springboot
+Build-Jdk: 1.8.0_151
+Implementation-URL: http://projects.spring.io/spring-boot/cosmeticsapp
+ /
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
