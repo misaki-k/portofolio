@@ -34,11 +34,6 @@ public class CosmeticsController {
 		mv.setViewName("quiz");
 		mv.addObject("css","quiz");
 		mv.addObject("msg","あなたのスキントーンは？");
-		mv.addObject("radio1","radio");
-		mv.addObject("radio2","radio");
-		mv.addObject("radio3","radio");
-		mv.addObject("radio4","radio");
-		mv.addObject("radio5","radio");
 		mv.addObject("circle1", "faircircle");
 		mv.addObject("circle2", "lightcircle");
 		mv.addObject("circle3", "mediumcircle");
@@ -75,10 +70,6 @@ public class CosmeticsController {
 		mv.setViewName("quiz2");
 		mv.addObject("css","quiz2");
 		mv.addObject("msg","あなたのスキンタイプは？");
-		mv.addObject("radio1","radio");
-		mv.addObject("radio2","radio");
-		mv.addObject("radio3","radio");
-		mv.addObject("radio4","radio");
 		mv.addObject("question1","DRY");
 		mv.addObject("question2","NORMAL");
 		mv.addObject("question3","OILY");
@@ -109,9 +100,6 @@ public class CosmeticsController {
 		mv.addObject("quiz", "quiz4");
 		mv.addObject("css","quiz3");
 		mv.addObject("msg","求めるカバー力はどのくらい？");
-		mv.addObject("radio1","radio");
-		mv.addObject("radio2","radio");
-		mv.addObject("radio3","radio");
 		mv.addObject("question1","FULL");
 		mv.addObject("question2","MEDIUM");
 		mv.addObject("question3","SHEER");
@@ -139,10 +127,6 @@ public class CosmeticsController {
 		mv.setViewName("quiz4");
 		mv.addObject("css","quiz4");
 		mv.addObject("msg","求める仕上がりは？");
-		mv.addObject("radio1","radio");
-		mv.addObject("radio2","radio");
-		mv.addObject("radio3","radio");
-		mv.addObject("radio4","radio");
 		mv.addObject("question1","MATTE");
 		mv.addObject("question2","NATURAL");
 		mv.addObject("question3","RADIANT");
