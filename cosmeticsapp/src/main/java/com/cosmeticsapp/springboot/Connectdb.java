@@ -93,7 +93,7 @@ public class Connectdb {
 				CoverageData cd = new CoverageData();
 				
 				cd.setId(rs.getString("cover_id"));
-				cd.setVal(rs.getString("coverageName"));
+				cd.setVal(rs.getString("coverName"));
 				dataList.add(cd);
 			}
 			
