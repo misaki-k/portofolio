@@ -92,7 +92,7 @@ public class Connectdb {
 			while(rs.next()) {
 				CoverageData cd = new CoverageData();
 				
-				cd.setId(rs.getString("coverage_id"));
+				cd.setId(rs.getString("cover_id"));
 				cd.setVal(rs.getString("coverageName"));
 				dataList.add(cd);
 			}
