@@ -1,3 +1,4 @@
+# 現在改修中につき、エラー発生中です  
 # portofolio
 
 #### JavaのSpring bootとthymeleafのテンプレートを使用して、美容のマッチングアプリを作りました。  
