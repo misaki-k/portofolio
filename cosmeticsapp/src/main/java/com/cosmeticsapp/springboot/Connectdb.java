@@ -86,7 +86,7 @@ public class Connectdb {
 	//Coverage
 	public ArrayList<CoverageData> getCoverage(){
 		try {
-			rs = stmt.executeQuery("Select * FROM coverage");
+			rs = stmt.executeQuery("Select * FROM coverage;");
 			ArrayList<CoverageData> dataList = new ArrayList<CoverageData>();
 			
 			while(rs.next()) {
@@ -107,7 +107,7 @@ public class Connectdb {
 	//Finish
 	public ArrayList<FinishData> getFinish(){
 		try {
-			rs = stmt.executeQuery("Select * FROM finish");
+			rs = stmt.executeQuery("Select * FROM finish;");
 			ArrayList<FinishData> dataList = new ArrayList<FinishData>();
 			
 			while(rs.next()) {
