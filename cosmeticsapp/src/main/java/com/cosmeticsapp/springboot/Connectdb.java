@@ -40,7 +40,7 @@ public class Connectdb {
 			try {
 				//Select文の実行と結果を格納/代入
 				rs = stmt.executeQuery("select items.item_id,items.name,items.brand,items.color,items.picture from itemfinish, finish,(select items.item_id,items.name,items.brand,items.color,items.picture from itemskintype,skintype, (select items.item_id,items.name,items.brand,items.color,items.picture from coverage,itemcoverage,(select items.item_id,items.name,items.brand,items.color,items.picture from items,skintone,itemskintone where skintone.tone_id = itemskintone.tone_id and items.item_id = itemskintone.item_id and skintone.toneName = '" + data.getAnswer1() + "') as items where items.item_id = itemcoverage.item_id and itemcoverage.cover_id = coverage.cover_id and coverage.coverName = '" + data.getAnswer3() + "') as items where items.item_id = itemskintype.item_id and itemskintype.type_id = skintype.type_id and skintype.typeName = '" + data.getAnswer2() + "') as items where items.item_id = itemfinish.item_id and itemfinish.finish_id = finish.finish_id and finish.finishName = '" + data.getAnswer4() + "'");
-				//結果を表示する
+				
 				ArrayList<CosmeData> dataList = new ArrayList<CosmeData>();
 				
 				while(rs.next()) {
